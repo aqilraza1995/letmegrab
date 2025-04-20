@@ -24,13 +24,6 @@ const Product = () => {
     const [search, setSearch] = useState("")
     const [productList, setProductList] = useState([])
 
-    const option = [
-        { label: "demo-1", value: 1 },
-        { label: "demo-2", value: 2 },
-        { label: "demo-3", value: 3 },
-        { label: "demo-4", value: 4 },
-    ]
-
     const columns = [
         {
             id: "title", label: "Title", render: (item) => (
